@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>✨ Smart Todo List</h1>
+
+    <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="filters">
+        <button onclick="showAll()">All</button>
+        <button onclick="showActive()">Active</button>
+        <button onclick="showCompleted()">Completed</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <div class="task-info">
+        Total Tasks: <span id="count">0</span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.container{
+    width:600px;
+    padding:30px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(15px);
+    color:white;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.input-group{
+    display:flex;
+    gap:10px;
+}
+
+input{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.filters{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+ul{
+    margin-top:20px;
+}
+
+li{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:10px;
+    background:rgba(255,255,255,0.15);
+}
+
+.task-content{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.actions{
+    display:flex;
+    gap:5px;
+}
+
+.completed{
+    text-decoration:line-through;
+    opacity:.6;
+}
+
+.status{
+    font-size:12px;
+    padding:3px 8px;
+    border-radius:20px;
+    background:rgba(255,255,255,.2);
+}
+
+.task-info{
+    margin-top:15px;
+    text-align:center;
+}
+.edit-input{
+    padding:8px;
+    border:none;
+    border-radius:8px;
+    width:200px;
+    outline:none;
+}
